@@ -1,25 +1,12 @@
 {
-  "name": "mvc-bartify",
+  "name": "mvc-barfin",
   "version": "1.0.0",
-  "description": "// 1st argv input command // 2nd argv sinput input // 3rd argv string value",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ekyourkid/mvc-bartify.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ekyourkid/mvc-bartify/issues"
-  },
-  "homepage": "https://github.com/ekyourkid/mvc-bartify#readme",
+  "author": "Albarms",
+  "license": "MIT",
   "dependencies": {
-    "chalk": "^5.1.2",
-    "clear": "^0.1.0",
-    "figlet": "^1.5.2"
+    "chalk": "2.3.1",
+    "clear": "0.0.1",
+    "figlet": "1.2.0"
   }
 }
