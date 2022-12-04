@@ -1,7 +1,3 @@
-const clear = require('clear')
-const figlet = require('figlet')
-const chalk = require('chalk')
-
 class SongView {
   static displayHelp() {
     const listCommand = [
@@ -12,13 +8,7 @@ class SongView {
       '$ node app.js update <id> <field,value>',
       '$ node app.js delete <id>',
     ]
-    console.log(
-      chalk.cyan('---------------------------------------------------'),
-    )
-    console.log(chalk.cyan(figlet.textSync('Bartify')))
-    console.log(
-      chalk.cyan('---------------------------------------------------'),
-    )
+    console.log('Bartify')
     listCommand.forEach((command) => {
       console.log(command)
       this.loading(100)
@@ -26,12 +16,9 @@ class SongView {
   }
   static display(data) {
     data.forEach((song) => {
+      console.log('Songs List')
       this.loading(100)
-      console.log(chalk.cyan(figlet.textSync('Songs List')))
-      console.log(
-        chalk.cyan('---------------------------------------------------'),
-      )
-      console.log(chalk.blue(`${song.id}. ${song.title} - ${song.band}\n`))
+      console.log(`${song.id}. ${song.title} - ${song.band}\n`)
     })
   }
 
