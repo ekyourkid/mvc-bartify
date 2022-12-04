@@ -1,2 +1,2 @@
-class SongController{ }
+class SongController {}
 module.export = SongController

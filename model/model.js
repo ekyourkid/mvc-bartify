@@ -1,2 +1,2 @@
-class SongModel{ }
+class SongModel {}
 module.export = SongModel
