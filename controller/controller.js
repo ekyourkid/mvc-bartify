@@ -9,5 +9,9 @@ class SongController {
     let data = SongModel.readFromJson()
     SongView.display(data)
   }
+  static getAddSong() {
+    let create = SongModel.addSong()
+    SongView.addList(create)
+  }
 }
 module.exports = SongController

@@ -21,6 +21,13 @@ class SongView {
       console.log(`${song.id}. ${song.title} - ${song.band}\n`)
     })
   }
+  static addList(create) {
+    create.forEach((song) => {
+      console.log('Add Song')
+      this.loading(100)
+      console.log(`${song.id}. ${song.title} - ${song.band}\n`)
+    })
+  }
 
   static loading(milliseconds) {
     var start = new Date().getTime()

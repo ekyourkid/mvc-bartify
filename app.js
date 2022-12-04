@@ -10,8 +10,7 @@ switch (command) {
   case 'find':
     console.log('find song by id', input)
   case 'add':
-    console.log('add song ....')
-    break
+    return SongController.getAddSong()
   case 'update':
     console.log('update song ....')
     break
