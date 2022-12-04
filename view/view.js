@@ -12,7 +12,13 @@ class SongView {
       '$ node app.js update <id> <field,value>',
       '$ node app.js delete <id>',
     ]
-    console.log(chalk.cyan(figlet.textSync('Welcome to bartify')))
+    console.log(
+      chalk.cyan('---------------------------------------------------'),
+    )
+    console.log(chalk.cyan(figlet.textSync('Bartify')))
+    console.log(
+      chalk.cyan('---------------------------------------------------'),
+    )
     listCommand.forEach((command) => {
       console.log(command)
       this.loading(100)
