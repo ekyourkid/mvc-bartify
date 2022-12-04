@@ -1,8 +1,8 @@
 [
   {
-    "Id": 1,
-    "Title": "The Rolling Stone",
-    "song": "Paint it Black",
-    "genres": "Rock"
+    "id": 1,
+    "title": "Paint it Black",
+    "band": "The Rolling Stone",
+    "genre": "Rock"
   }
 ]

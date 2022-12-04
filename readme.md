@@ -10,3 +10,5 @@ To use this application from cli
 list of command `node app.js help`
 
 
+// list song, add song , update song, delete song , play song
+// song has property : id, title, band, genre
