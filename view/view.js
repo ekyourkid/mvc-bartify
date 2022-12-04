@@ -21,14 +21,6 @@ class SongView {
       console.log(`${song.id}. ${song.title} - ${song.band}\n`)
     })
   }
-  static addList(create) {
-    create.forEach((song) => {
-      console.log('Add Song')
-      this.loading(100)
-      console.log(`${song.id}. ${song.title} - ${song.band}\n`)
-    })
-  }
-
   static loading(milliseconds) {
     var start = new Date().getTime()
     for (var i = 0; i < 1e7; i++) {
@@ -36,6 +28,13 @@ class SongView {
         break
       }
     }
+  }
+  static displaySongDetail(song) {
+    console.log(`/---- Song Detail ----/`)
+    console.log(`title: ${song.title}`)
+    console.log(`band: ${song.band}`)
+    console.log(`genre: ${song.genre}`)
+    console.log(`/----------------------/`)
   }
 }
 module.exports = SongView
