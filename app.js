@@ -9,6 +9,18 @@ switch (command) {
   case 'list':
     console.log('list of songs....')
     break
+  case 'add':
+    console.log('add song ....')
+    break
+  case 'update':
+    console.log('update song ....')
+    break
+  case 'delete':
+    console.log('delete song ....')
+    break
+  case 'play':
+    console.log('play song ....')
+    break
   default:
     console.log('help')
     break
