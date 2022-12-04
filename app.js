@@ -7,6 +7,8 @@ let payload = process.argv[4]
 switch (command) {
   case 'list':
     return SongController.getSongList()
+  case 'find':
+    console.log('find song by id', input)
   case 'add':
     console.log('add song ....')
     break
@@ -20,6 +22,6 @@ switch (command) {
     console.log('play song ....')
     break
   default:
-    console.log('help')
+    SongController.help()
     break
 }
