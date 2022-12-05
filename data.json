@@ -16,5 +16,11 @@
     "title": "Yang Terlupakan",
     "band": "Iwan Fals",
     "genre": "Balad"
+  },
+  {
+    "id": 4,
+    "title": "Soldier of Fortune",
+    "band": "Deep Purple",
+    "genre": "Alternative Rock"
   }
 ]

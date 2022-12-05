@@ -3,7 +3,7 @@ class SongView {
     const listCommand = [
       '$ node app.js help',
       '$ node app.js list',
-      '$ node app.js findById <id>',
+      '$ node app.js find <id>',
       '$ node app.js add <songname,band,genre>',
       '$ node app.js update <id> <field,value>',
       '$ node app.js delete <id>',
