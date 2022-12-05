@@ -1,3 +1,5 @@
+const { update } = require('../model/model')
+
 class SongView {
   static displayHelp() {
     const listCommand = [
@@ -15,8 +17,8 @@ class SongView {
     })
   }
   static display(data) {
+    console.log('Songs List')
     data.forEach((song) => {
-      console.log('Songs List')
       this.loading(100)
       console.log(`${song.id}. ${song.title} - ${song.band}\n`)
     })
@@ -35,6 +37,19 @@ class SongView {
     console.log(`band: ${song.band}`)
     console.log(`genre: ${song.genre}`)
     console.log(`/----------------------/`)
+  }
+  static songNotFound(query) {
+    console.log(`Search for : ${query} not found!!`)
+  }
+  static displayResult(operation, textString) {
+    if (operation == 'add') {
+      console.log(`sucess add song`)
+      console.log(textString)
+    } else if (operation == 'delete') {
+      console.log(textString)
+    } else if (operation == 'update') {
+      console.log('Sucess song update')
+    }
   }
 }
 module.exports = SongView

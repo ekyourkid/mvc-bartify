@@ -1,26 +1,50 @@
 [
   {
     "id": 1,
-    "title": "R u Mine?",
-    "band": "Arctic Monkey",
-    "genre": "Rock"
+    "title": "lonteku",
+    "band": "iwan fals",
+    "genre": "balad"
   },
   {
     "id": 2,
-    "title": "Yang Terlupakan",
-    "band": "Iwan Fals",
-    "genre": "Balad"
+    "title": "Frengki Jengki",
+    "band": "Romi and The Jahats",
+    "genre": "Pop"
   },
   {
     "id": 3,
-    "title": "Yang Terlupakan",
-    "band": "Iwan Fals",
-    "genre": "Balad"
+    "title": "Realita Mandor",
+    "band": "Albar and the Rocky",
+    "genre": "Dangdut"
   },
   {
     "id": 4,
-    "title": "Soldier of Fortune",
-    "band": "Deep Purple",
-    "genre": "Alternative Rock"
+    "title": "supir angkot gblk",
+    "band": "Albar and the Rocky",
+    "genre": "satan metal"
+  },
+  {
+    "id": 5,
+    "title": "lala",
+    "band": "lalal",
+    "genre": "alala"
+  },
+  {
+    "id": 6,
+    "title": "kslk",
+    "band": "jkj",
+    "genre": "kjk"
+  },
+  {
+    "id": 7,
+    "title": "kslk",
+    "band": "jkj",
+    "genre": "kjk"
+  },
+  {
+    "id": 8,
+    "title": "kslk",
+    "band": "jkj",
+    "genre": "kjk"
   }
 ]

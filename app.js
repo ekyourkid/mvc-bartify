@@ -2,6 +2,7 @@ const SongController = require('./controller/controller')
 
 let command = process.argv[2]
 let input = process.argv[3]
+let inputUpdateValue = process.argv[4]
 
 switch (command) {
   case 'list':
@@ -11,11 +12,9 @@ switch (command) {
   case 'add':
     return SongController.addSong(input)
   case 'update':
-    console.log('update song ....')
-    break
+    return SongController.updateSong(input, inputUpdateValue)
   case 'delete':
-    console.log('delete song ....')
-    break
+    return SongController.getDeleteSong(input)
   case 'play':
     console.log('play song ....')
     break
